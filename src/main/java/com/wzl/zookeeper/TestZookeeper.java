@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class TestZookeeper {
-    private String connectString="master:2181";
+    private String connectString="jerry:2181";
     private int sessionTimeout = 2000;
     private ZooKeeper zkClient;
 
